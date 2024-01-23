@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avicii!</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        /* Black background color */
+        color: cyan;
+        /* Cyan text color */
+      }
+
+      header,
+      nav,
+      section,
+      footer {
+        margin: 20px;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      nav {
+        background-color: #0000ff;
+        /* Blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        margin-right: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: cyan;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #fff;
+        background-color: #00008b;
+        /* Darker blue on hover */
+        border-radius: 4px;
+      }
+
+      section {
+        margin-top: 20px;
+        background-color: #333;
+        /* Dark gray background color */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px 10px cyan;
+        /* Cyan shadow */
+      }
+
+      section h2 {
+        color: #0000ff;
+        /* Blue heading color */
+        border-bottom: 2px solid #0000ff;
+        /* Blue underline */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      section p {
+        color:cyan;
+        /* Cyan text color */
+        line-height: 1.6;
+      }
+
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+
+      .gallery img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        margin-top: 50px;
+        text-align: center;
+        background-color: #00008b;
+        /* Darker blue footer */
+        color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: #0000ff;">Avicii!</h1>
+      <p>Welcome to the  destination for the commemoration of Avicii.</p>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#about">About Avicii</a>
+        </li>
+        <li>
+          <a href="#news">News & Updates</a>
+        </li>
+        <li>
+          <a href="#gallery">Photo Gallery</a>
+        </li>
+        <li>
+          <a href="#music">Music</a>
+        </li>
+        <li>
+          <a href="#videos">Videos</a>
+        </li>
+        <li>
+          <a href="#concerts">Concerts & Tours</a>
+        </li>
+        <li>
+          <a href="#interaction">Fan Interaction</a>
+        </li>
+        <li>
+            <a href="#Cause of death">Death</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h2>About Avicii </h2>
+      <p>Avicii is a talented artist known for his incredible performances and unique style.</p>
+    </section>
+    <section id="news">
+      <h2>News & Updates</h2>
+      <p>Stay tuned for the latest news and updates about Avicii's non-existent projects and events.</p>
+    </section>
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <!-- Replace the placeholder URLs with the actual URLs of Jenny Kim's photos -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Avicii_2014_003.jpg/440px-Avicii_2014_003.jpg" alt="Jenny Kim Photo 1">
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202006/imgonline-com-ua-FrameBlurred-_23.jpeg?size=690:388" alt="Jenny Kim Photo 2">
+        <img src="https://www.billboard.com/wp-content/uploads/2020/05/avicii-press-photo-cr-sean-erikkson-billboard-1548-1590528360.jpg?resize=942,623" alt="Jenny Kim Photo 3">
+        <!-- Add more images as needed -->
+      </div>
+    </section>
+    <section id="music">
+      <h2>Music</h2>
+      <p>Listen to Avicii's amazing music and discover why fans around the world love him.</p>
+    </section>
+    <section id="videos">
+      <h2>Videos</h2>
+      <p>Watch exclusive videos of Avicii's performances and interviews.</p>
+    </section>
+    <section id="concerts">
+      <h2>Concerts & Tours</h2>
+      <p>We wont be getting concerts and tours anytime soon unfortunately.</p>
+    </section>
+    <section id="interaction">
+      <h2>Fan Interaction</h2>
+      <p>Connect with fellow fans and share your love for Avicii.</p>
+    </section>
+    <section id="Cause of death">
+        <h2>Death</h2>
+        <p>Avicii died on April 20, 2018 on Muscat, Oman and it was a case of suicide.RIP Avicii</p>
+    </section>
+    <footer>
+      <p>&copy; 2024 Avicii Fan Club</p>
+    </footer>
+  </body>
+</html>
